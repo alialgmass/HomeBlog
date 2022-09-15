@@ -1,5 +1,5 @@
 @error('suc')
-                                    <span class="error" >
+                                    <span id="error" >
                                     {{ $message }} 
                                     </span>
                                 @enderror

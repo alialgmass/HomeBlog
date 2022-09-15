@@ -185,10 +185,11 @@
 		
 
 	});
-var err=document.getElementsByClassName('error');
+
 setTimeout(()=>{
-	
-err.addClass("hidden");
-},1000)
+	var er=document.getElementById("error");
+	if(er)
+	er.style.display = "none";
+},2000)
 
 }());

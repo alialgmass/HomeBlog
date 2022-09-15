@@ -161,7 +161,7 @@ p {
   background: #fed330;
   color: #fff;
 }
-span.error {
+span#error {
   
  
   text-align: center;
@@ -172,9 +172,7 @@ span.error {
   color: #fff;
   border: 2px solid #fb4f59;
 }
-.hidden{
-  display: none;
-}
+
 .btn-danger {
   background: #fb4f59;
   color: #fff;
